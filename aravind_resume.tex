@@ -1,0 +1,170 @@
+%-------------------------
+% Resume in Latex
+% Author : Aravind G
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\Large Aravind G}} & Email : \href{mailto:g.aravind4@gmail.com}{g.aravind4@gmail.com}\\
+  \href{https://www.linkedin.com/in/arvind1705/}{https://www.linkedin.com/in/arvind1705/}  & Mobile : +91-8892181480 \\
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {School of Engineering and Technology - Jain University}{Bengaluru, India}
+      {Bachelor of Technology in Information Science;  GPA: 7.1/10.0}{Aug. 2014 -- July. 2018}
+    \resumeSubheading
+      {MES Kishore Kendra P.U. College}{Bengaluru, India}
+      {Pre University College}{July. 2012 -- July. 2014}  
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Nineleaps}{Bengaluru, India}
+      {Software Developer Intern}{Jan 2018 - Present}
+      \resumeItemListStart
+        \resumeItem{Euclid (MaRS)}
+          {Fast, granular, reliable ROI on ad performance was our bugle call to build Euclid, client's in-house marketing platform. Euclid replaced a legacy system, which processed ROI data somewhat manually as it struggled to keep up with client’s scale and data complexity.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Freelancing}{Bengaluru, India}
+      {Fullstack Developer}{Jan 2014 - Present}
+      \resumeItemListStart
+        \resumeItem{Small Scale Projects}
+          {Completed several projects using Python, Node JS, React, Angular, Javascript, Jquery, Bootstrap, CSS, and HTML.}
+      \resumeItemListEnd
+
+      \resumeSubheading
+      {School of Engineering and Technology - Jain University}{Bengaluru, India}
+      {Research and Teaching Assistant}{Jan 2015 - Dec 2017}
+      \resumeItemListStart
+        \resumeItem{Research Assistant - Image processing}
+          {Research on Image processing to provide accurate form segmentation and form elicitation.}
+        \resumeItem{Teaching Assistant}
+          {Have given multiple sessions on GIT(Version control system) and various other topics to classmates and juniors.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+%-----------PROJECTS-----------------
+\section{Selected Projects} All projects available on git : \url{https://www.github.com/arvind1705}
+  \resumeSubHeadingListStart
+    \resumeSubItem{AMPS - DAPP}
+      {Decentralized voting application developed on top of Ethereum Platform. All voting transactions were securely stored on Blockchain. Objective was to replace traditional voting system with more secure system using blockchain technology. }
+    \resumeSubItem{University Certification - DAPP }
+      {Decentralized application to issue and verify Blockchain based official records for academic credentials. The main objective to go away from traditional centralized mechanism for verification and issuance of certificates to a decentralized and more secure mechanism using blockchain. }
+    \resumeSubItem{TensorFlow Image Classifier}
+      {A mini-scale TensorFlow (An open-source software library for
+      Machine Intelligence.) image classifier coded using python for classification of images based on
+      input. We used transfer learning, which means used a model that has been already trained on
+      another problem.}
+    \resumeSubItem{Discord Results Chatbot}
+      {Chatbot developed using python for retrieval results from University website and displaying it in chat window of Discord Application.}
+  \resumeSubHeadingListEnd
+
+
+%--------PROGRAMMING SKILLS------------
+\section{Programming Skills}
+\resumeSubHeadingListStart
+  \item{
+    \textbf{Languages}{: Python, Javascript, SQL, Java, C, C++}
+  }
+  \item {
+    \textbf{Technologies}{: AWS, Airflow, Heroku, GIT, NodeJS, Flask, React, Ethereum}
+  }
+\resumeSubHeadingListEnd
+
+%--------PROGRAMMING SKILLS------------
+\section{Publications}
+ \resumeSubHeadingListStart
+   \item{
+    Aravind G, Sricharan A, Varun K \textbf{Artificial Intelligence Vision Technology for
+    Blind}, Recent Trends In Electrical, Electronics, Computing and
+    Information Technology (NCRTEECIT-16)
+   }
+   \item  Aravind G, Varun K, Manjunath C R, Soumya K N
+   \textbf{Application of Big Data Analytics with Evidence Based Medicine}
+   Published in International Journal of Trend in Scientific Research and Development (ijtsrd), 
+   ISSN: 2456-6470, Volume-2 | Issue-4 , June 2018
+ \resumeSubHeadingListEnd
+
+ 
+
+
+%-------------------------------------------
+\end{document}
